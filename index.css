@@ -1,0 +1,113 @@
+body {
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    background: radial-gradient(black, transparent);
+}
+
+.input__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 41%;
+    height: 100vh;
+    background: radial-gradient(#d67777, transparent);
+}
+
+.input {
+    line-height: 3;
+    border-radius: 13px;
+    margin-bottom: 13px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 3px 20px 2px;
+    color: black;
+    padding-left: 30px;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+
+.input:focus {
+    border: 1px solid;
+}
+
+.input__button {
+    height: 41px;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+    box-shadow: 2px 6px 16px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 200ms ease-in-out;
+}
+.input__button:hover{
+    background-color: gray;
+    color: red;
+    cursor: pointer;
+}
+.list__wrapper{
+    width: 55%;
+    background: radial-gradient(#249994, transparent);
+    padding: 0 10px;
+    overflow: hidden;
+    display: block;
+}
+.to__do__item__wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    word-wrap: break-word;
+    padding: 0 10px;
+    margin: 10px;
+}
+.to__do__item{
+    font-size: 20px;
+    text-align: start;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    margin: 0;
+    width: 100%;
+    padding: 0 5px;
+    padding: -17px;
+    align-self: end;
+    margin-left: 15px;
+}
+.delete__button{
+    text-align: unset;
+    color: black;
+    transition: width 500ms ease-in-out, padding-top 500ms ease-in-out;
+    text-align: center;
+    display: flex;
+    align-self: flex-start;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+.delete__button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: black;
+}
+.itemToDo{
+ color: red;
+ font-size: 25px;
+}
+.itemToDo:hover{
+    cursor: pointer;
+}
+.todo__wrapper{
+    display: flex;
+    width: 80%;
+    background-color: #ad9c9c;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
